@@ -6,7 +6,15 @@
         "artopolis",
         "funclib"
     ],
-    "homepage": "http://iconed.ru/",
+    "homepage": "https://github.com/artopolis/funclib",
+    "authors": [
+        {
+            "name": "Ilya Colley",
+            "email": "iconed@iconed.ru",
+            "homepage": "http://iconed.ru",
+            "role": "Developer"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
 	"require": {
