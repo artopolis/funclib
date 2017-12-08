@@ -1,0 +1,31 @@
+{
+    "name": "zendframework/mediterra.ru",
+    "description": "mediterra Application for Zend Framework zend-mvc applications",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "framework",
+        "mvc",
+        "zf"
+    ],
+    "homepage": "http://framework.zend.com/",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+	"require": {
+		"php":"^5.6",
+		"artopolis\funclib":"01.1*"
+	},
+   	"repositories":[
+        {
+            "type":"package",
+            "package":{
+                "name":"artopolis/funclib",
+                "version":"01.10",
+                "source":{
+                    "url":"https://github.com/artopolis/funclib",
+                    "type":"svn"
+                }
+            }
+        }
+    ],	
+}
