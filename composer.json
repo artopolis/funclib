@@ -1,31 +1,26 @@
 {
-    "name": "zendframework/mediterra.ru",
-    "description": "mediterra Application for Zend Framework zend-mvc applications",
-    "type": "project",
+    "name": "artopolis/funclib",
+    "description": "several functions used by my sites",
     "license": "BSD-3-Clause",
     "keywords": [
-        "framework",
-        "mvc",
-        "zf"
+        "artopolis",
+        "funclib"
     ],
-    "homepage": "http://framework.zend.com/",
+    "homepage": "http://iconed.ru/",
     "minimum-stability": "dev",
     "prefer-stable": true,
 	"require": {
-		"php":"^5.6",
-		"artopolis\funclib":"01.1*"
+		"php":">=^5.5"
 	},
-   	"repositories": [
-        {
-            "type":"package",
-            "package":{
-                "name":"artopolis/funclib",
-                "version":"01.10",
-                "source":{
-                    "url":"https://github.com/artopolis/funclib",
-                    "type":"svn"
-                }
-            }
+    "autoload": {
+        "psr-4": {
+            "artopolis\\funclib\\": "src/"
         }
-    ]	
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "01.10-dev",
+            "dev-develop": "01.10-dev"
+        }
+    }
 }
