@@ -15,7 +15,7 @@
 		"php":"^5.6",
 		"artopolis\funclib":"01.1*"
 	},
-   	"repositories":[
+   	"repositories": [
         {
             "type":"package",
             "package":{
@@ -27,5 +27,5 @@
                 }
             }
         }
-    ],	
+    ]	
 }
